@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Jibinsha P T | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<section class="hero">
+
+  <!-- BACKGROUND OVERLAY -->
+  <div class="hero-bg"></div>
+
+  <div class="hero-container">
+
+    <!-- LEFT SIDE IMAGE -->
+    <div class="hero-image">
+      <img src="assets/profile.png" alt="Jibinsha">
+    </div>
+
+    <!-- RIGHT SIDE CONTENT -->
+    <div class="hero-content hero-glass">
+      <h1>Jibinsha P T</h1>
+
+      <p class="tagline">
+        Agri-Tech | GIS Specialist | Data-Driven Agriculture Systems
+      </p>
+
+      <p class="subtext">
+        Building intelligent farming solutions using GIS, AI, and real-world agricultural data.
+      </p>
+
+      <div class="buttons">
+        <a href="#about" class="btn">Explore</a>
+        <a href="https://soil-intelligence.netlify.app/" target="_blank" class="btn-outline">Live App</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="about" class="about section reveal">
+
+  <h2>About Me</h2>
+
+  <div class="about-container">
+
+    <!-- LEFT SIDE -->
+    <div class="about-left">
+
+      <p>
+        I am a postgraduate in Agriculture (Agronomy) specializing in GIS,
+        field research, and data-driven agricultural systems.
+      </p>
+
+      <p>
+        I focus on integrating geospatial technology and AI to build intelligent
+        solutions for modern agriculture and decision support systems.
+      </p>
+
+      <!-- COUNTERS -->
+      <div class="counters">
+
+        <div class="counter-box">
+          <h3><span class="counter" data-target="3">0</span>+</h3>
+          <p>Projects</p>
+        </div>
+
+        <div class="counter-box">
+          <h3><span class="counter" data-target="2">0</span>+</h3>
+          <p>Years Experience</p>
+        </div>
+
+        <div class="counter-box">
+          <h3><span class="counter" data-target="5">0</span>+</h3>
+          <p>GIS Works</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="about-right">
+
+      <div class="about-card">
+        <h3>🎓 Education</h3>
+        <p>M.Sc. Agriculture (Agronomy)</p>
+      </div>
+
+      <div class="about-card">
+        <h3>🗺️ GIS</h3>
+        <p>QGIS, ArcGIS, Google Earth Engine</p>
+      </div>
+
+      <div class="about-card">
+        <h3>📊 Data</h3>
+        <p>R, Excel, Spatial Analysis</p>
+      </div>
+
+      <div class="about-card">
+        <h3>🚀 Focus</h3>
+        <p>Agri-Tech & Decision Systems</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- MINI TIMELINE -->
+  <div class="mini-timeline">
+
+    <div class="mini-item">
+      <span>2026</span>
+      <p>Field Specialist – INDOCERT</p>
+    </div>
+
+    <div class="mini-item">
+      <span>2025</span>
+      <p>Enumerator – GIS Mapping</p>
+    </div>
+
+    <div class="mini-item">
+      <span>2024</span>
+      <p>Research – Herbicide Study</p>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- PROJECTS -->
+<section class="section reveal">
+  <h2>Projects & Systems</h2>
+
+  <div class="projects">
+
+    <!-- MAIN PROJECT -->
+    <div class="card">
+      <img src="assets/project1.jpg">
+
+      <h3>Geo-AI Soil Intelligence System</h3>
+
+      <p>
+        A smart web-based platform that provides crop-specific nutrient recommendations 
+        based on soil parameters and environmental conditions.
+      </p>
+
+      <p class="method">
+        Tech: Web App | Data Logic | Soil Science | Decision Support System
+      </p>
+
+      <div class="project-links">
+        <a href="https://soil-intelligence.netlify.app/" target="_blank" class="btn">
+          🌐 Live App
+        </a>
+      </div>
+    </div>
+
+    <!-- OPTIONAL FUTURE PROJECT -->
+    <div class="card">
+      <img src="assets/project2.jpg">
+
+      <h3>Pest Prediction System</h3>
+
+      <p>
+        Predicts pest and disease risk using weather and crop data.
+      </p>
+
+      <p class="method">
+        Tech: Python | ML (Planned)
+      </p>
+    </div>
+
+  </div>
+</section>
+<!-- GIS -->
+<section class="section reveal">
+  <h2>GIS Portfolio</h2>
+
+  <div class="projects gis-grid">
+
+    <div class="card" onclick="openModal('assets/gis1.jpg')">
+      <img src="assets/gis1.jpg">
+      <h3>Soil Nutrient Map</h3>
+      <p>Interpolation of soil nutrient variability using GIS.</p>
+      <p class="method">Method: IDW / Kriging, Raster analysis</p>
+    </div>
+
+    <div class="card" onclick="openModal('assets/gis2.jpg')">
+      <img src="assets/gis2.jpg">
+      <h3>Crop Suitability</h3>
+      <p>Multi-criteria suitability mapping.</p>
+      <p class="method">Method: Weighted overlay, raster classification</p>
+    </div>
+
+    <div class="card" onclick="openModal('assets/gis3.jpg')">
+      <img src="assets/gis3.jpg">
+      <h3>Watershed</h3>
+      <p>Micro-watershed delineation.</p>
+      <p class="method">Method: DEM analysis, flow accumulation</p>
+    </div>
+
+    <div class="card" onclick="openModal('assets/gis3.jpg')">
+      <img src="assets/gis3.jpg">
+      <h3>Watershed</h3>
+      <p>Micro-watershed delineation.</p>
+      <p class="method">Method: DEM analysis, flow accumulation</p>
+    </div>
+
+    <div class="card" onclick="openModal('assets/gis3.jpg')">
+      <img src="assets/gis3.jpg">
+      <h3>Watershed</h3>
+      <p>Micro-watershed delineation.</p>
+      <p class="method">Method: DEM analysis, flow accumulation</p>
+    </div>
+
+
+  </div>
+</section>
+
+<!-- BLOG -->
+<section class="section reveal">
+  <h2>Insights & Blog</h2>
+
+  <div class="projects">
+
+    <div class="card">
+      <h3>How GIS is Transforming Agriculture</h3>
+      <p>Exploring the role of geospatial tools in precision farming.</p>
+    </div>
+
+    <div class="card">
+      <h3>Soil Intelligence Systems</h3>
+      <p>Using data and AI for nutrient optimization.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section reveal">
+  <h2>Contact</h2>
+  <p>Email: jibinsha45@gmail.com</p>
+  <p>LinkedIn: linkedin.com/in/jibinsha-pt</p>
+</section>
+
+<!-- MODAL -->
+<div id="modal" class="modal">
+  <span onclick="closeModal()" class="close">&times;</span>
+  <img id="modal-img">
+</div>
+
+<script src="script.js"></script>
+<div id="imageModal" class="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <img id="modalImg" class="modal-content">
+</div>
+</body>
+</html>
